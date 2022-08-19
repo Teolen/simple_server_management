@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Терция. Тестовое задание</title>
+        <link href = "style.css" rel = "stylesheet">
+        <link rel="icon" href="data:;base64,=">
+    </head>
+    <body>
+        <form method = "post" name="addForm" action = "addData.php" onsubmit = "submitAction(this);return false;">
+            <input type = "text" name = "manufacturer" required placeholder = "Производитель"/>
+            <input type = "text" name = "name" required placeholder = "Наименование"/>
+            <input type = "number" name = "price" required placeholder="Цена"/>
+            <input type = "number" name = "amount" required placeholder="Количество"/>
+            <input type = "submit" name = "btnSubmit" value = "Добавить"/>
+        </form>
+        <table class = "table">
+            <thead>
+                <th>Производитель</th>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                <td colspan = "2">Итого:</td>
+                <td id = "total">0</td>
+                <td id = "count">0</td>
+            </tfoot>
+        </table>
+        <script src = "script.js"></script>
+    </body>
+</html>

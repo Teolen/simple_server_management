@@ -1,0 +1,7 @@
+Apple :: iPhone 10 :: 123000 :: 1
+Huawei :: Honor 10 :: 25000 :: 4
+Huawei :: Honor 12 :: 35000 :: 2
+OPPO :: Reno 4 :: 40000 :: 1
+sdlfjsk :: sdflf :: 13 :: 1
+sldf :: fdsdf :: 1 :: 1
+dsfsdf :: eef :: 1 :: 1
